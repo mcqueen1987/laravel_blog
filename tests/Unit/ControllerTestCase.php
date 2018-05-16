@@ -1,34 +1,25 @@
+
 <?php
 
-use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+namespace Tests\Feature;
 
-abstract class ControllerTestCase extends BaseTestCase
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+
+class ControllerTest extends TestCase
 {
 
-	public function setUp()
-	{
-		Session::load();
-	}
+    public function HomeControllerWelcomeTest()
+    {
+    	$response = $this->action('GET', 'HomeController@welcome');
+    	$this->assertEquals("ANIMAL BLOG", $response);
+    }
 
-	public function call($destination, $parameters = array(), $method = 'GET')
-	{
-		Request::foundation()->server->add(array(
-			'REQUEST_METHOD' => $method,
-		));
+    public function HomeControllerIndexTest()
+    {
+    	$response = $this->action('GET', 'HomeController@index');
+    	$this->assertEquals("ANIMAL BLOG", $response);
+    }
 
-		return Controller::call($destination, $parameters);
-	}
-
-	public function get($destination, $parameters = array())
-	{
-		return $this->call($destination, $parameters, 'GET');
-	}
-
-	public function post($destination, $post_data, $parameters = array())
-	{
-		Request::foundation()->request->add($post_data);
-
-		return $this->call($destination, $parameters, 'POST');
-	}
 
 }
