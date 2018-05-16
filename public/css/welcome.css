@@ -1,0 +1,116 @@
+         
+         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+         <style>
+          
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Arial;
+                padding: 20px;
+                background: #f1f1f1;
+            }
+
+            .header {
+                padding: 30px;
+                font-size: 40px;
+                text-align: center;
+                background: white;
+            }
+
+            .fakeimg {
+                border:2px solid red;
+                width: 100%;
+                padding: 20px;
+            }
+
+            .card {
+                 background-color: white;
+                 padding: 20px;
+                 margin-top: 20px;
+            }
+
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .footer {
+                clear: both;
+                position: relative;
+                z-index: 10;
+                height: 80px;
+                margin-top: 100px;
+                text-align: center;
+                background: #ddd;
+                width: 100%;
+            }
+            
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-top {
+                align-items: top;
+                top: 33px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 84px;
+            }
+
+            .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .blog-body {
+                width: 60%;
+                margin: auto;  
+                position: absolute;  
+                top: 200px; left: 0; bottom: 300px; right: 0;  
+            }
+
+            .blog-item {
+                margin: 70px 0 140px 0 ;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+
+        </style>   
+
