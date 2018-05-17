@@ -19,5 +19,5 @@ class ApiTest extends TestCase
         $response = $this->get('/login');
         $response->assertStatus(200);
     }
-
+    
 }

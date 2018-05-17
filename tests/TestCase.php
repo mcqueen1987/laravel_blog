@@ -6,12 +6,5 @@ use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 
 abstract class TestCase extends BaseTestCase
 {
-    use CreatesApplication;
-
-    
-    public function loginApiTest()
-    {
-        $response = $this->get('/login');
-        $response->assertStatus(2300);
-    }
+    use CreatesApplication;  // base class, need to use
 }
