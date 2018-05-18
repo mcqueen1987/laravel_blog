@@ -12,32 +12,35 @@ class ModelTest extends TestCase
 {
 
     /**
-     * test model API
-     * test Blog table APi
+     * test table Blog table
      * @return void
      */
     public function testBlog()
     {
         $blog = new Blog([
             'title' => "Tesla", 
-            'content' => "testetste uonnio test ", 
-            'author' => "xudongbo"
+            'content' => "Aritcle Continent", 
+            'author' => "Hello Mr Xu"
         ]);
         $this->assertEquals('Tesla', $blog->title);
+        $blogTest = new Blog([
+            'title' => "www", 
+        ]);
+        $this->assertEquals('www', $blogTest->title);
     }
 
     /**
-     * test model API
-     * test User table APi
+     * test table User APi
      * @return void
      */
     public function testUser()
     {
         $user = new User([
         'name' => "Tesla", 
-        'email' => "testetste uonnio test", 
-        'password' => "Mr Xu",
+        'email' => "test@gmail.com", 
+        'password' => "Hello Mr Xu",
     	]);
-        $this->assertEquals('Tesla', $user->name);
+        $this->assertEquals('Hello Mr Xu', $user->password);
     }
+
 }

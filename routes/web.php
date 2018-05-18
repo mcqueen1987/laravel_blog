@@ -20,3 +20,4 @@ Route::post('/saveData', 'BlogController@saveData')->name('saveData');
 Route::post('/create', 'BlogController@create')->name('create');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/react', 'ReactController@index')->name('react');
