@@ -3,6 +3,7 @@ import '../../static/css/fruitForm.css';
 import happyFace     from '../../static/img/happy.png' // if from default exports, we dont need to use brace
 import wonderingFace from '../../static/img/wondering.png'
 import worryFace     from '../../static/img/worry.png'
+import { InputFrom } from '../../static/html/inputFrom';
 
 export class FruitForm extends Component {
 	constructor(props){
@@ -43,6 +44,7 @@ export class FruitForm extends Component {
   					<img className="img-hint" alt="happy icon mage" src={`${img}`}/>
 					<div className="main">
 						<input type="text" id="sidebar" className="input-text" placeholder={`    I am ${tag} that ...`} ref="fruitName"/>
+						<InputFrom/>
 					</div>
 				</div>
 			</form>
