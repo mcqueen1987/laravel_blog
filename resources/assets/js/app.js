@@ -13,4 +13,4 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/Main');  // 我的另一个react项目
+require('./components/fruits');

@@ -1,0 +1,26 @@
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.component-wrapper {
+    float: left;
+    width: 33.33%;
+    height: 100%; 
+}
+
+.component-happy {
+	background-color: rgb(107, 183, 171);
+}
+
+.component-wondering {
+	background-color: rgb(238, 193, 71);
+}
+
+.component-worry {
+	background-color: rgb(203, 84, 69);
+}
+
+
