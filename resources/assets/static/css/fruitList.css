@@ -1,7 +1,7 @@
 .btn-delete, .btn-done, .btn-save, .btn-cancel {
-  width: 20px;
+  width: 10%;
   height: 20px;
-  margin: 0px 10px 0px 15px;
+  margin: auto;
   text-align: center;
   float: right;
   display: inline-block;
@@ -15,11 +15,21 @@
     font-size: 15px;
 }
 
+.class-eventList p {
+    width: 80%;
+    display: inline-block;
+}
+
 .container {
   text-align: center;
 }
 
 .list-group {
   text-align: center;
-  width: 90%;
+  /*width: 90%;*/
+}
+
+.list-group-item {
+  margin: auto;
+  width: 93%;
 }

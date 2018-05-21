@@ -66823,7 +66823,7 @@ exports = module.exports = __webpack_require__(34)(false);
 
 
 // module
-exports.push([module.i, "\n.form-inline {\n  text-align: center;\n}\n\n.form-group {\n  text-align: center;\n  width: 90%;\n}\n\n.img-hint {\n    width: 30px;\n    height: 30px;\n    margin: 20px 0 20px 0;\n    text-align: center;\n    display: inline-block;\n}\n\n.btn-add {\n    color: #f4f4f4;\n    background: #1abc9c;\n    font-weight: 700;\n    margin-left: 5px;\n    font-family: Arial,sans-serif;\n    /*border: 10;*/\n    /*margin-bottom: 5px;*/\n    border-radius: 5px;\n    height: 25px;\n}\n\n.input-text {\n    border-radius: 10px;\n    height: 45px;\n    width: 100%;\n    font-size: 15px;\n    margin-bottom: 30px;\n    text-align: left;\n}\n\n.main { \n    margin: 0 auto;\n}\n\n\n\n", ""]);
+exports.push([module.i, "\n.form-inline {\n  text-align: center;\n}\n\n.form-group {\n  text-align: center;\n  margin: auto;\n  /*width: 90%;*/\n}\n\n.img-hint {\n    width: 30px;\n    height: 30px;\n    margin: 20px 0 20px 0;\n    text-align: center;\n    display: inline-block;\n}\n\n.btn-add {\n    color: #f4f4f4;\n    background: #1abc9c;\n    font-weight: 700;\n    margin-left: 5px;\n    font-family: Arial,sans-serif;\n    /*border: 10;*/\n    /*margin-bottom: 5px;*/\n    border-radius: 5px;\n    height: 25px;\n}\n\n.input-text {\n    border-radius: 10px;\n    height: 45px;\n    width: 100%;\n    font-size: 15px;\n    margin-bottom: 30px;\n    text-align: left;\n}\n\n.main { \n    margin: 0 auto;\n}\n\n\n\n", ""]);
 
 // exports
 
@@ -78715,7 +78715,7 @@ exports = module.exports = __webpack_require__(34)(false);
 
 
 // module
-exports.push([module.i, ".btn-delete, .btn-done, .btn-save, .btn-cancel {\n  width: 20px;\n  height: 20px;\n  margin: 0px 10px 0px 15px;\n  text-align: center;\n  float: right;\n  display: inline-block;\n}\n\n.class-eventList {\n    border-radius: 10px;\n    text-align: left;\n    width: 100%;\n    height: 25px;\n    font-size: 15px;\n}\n\n.container {\n  text-align: center;\n}\n\n.list-group {\n  text-align: center;\n  width: 90%;\n}", ""]);
+exports.push([module.i, ".btn-delete, .btn-done, .btn-save, .btn-cancel {\n  width: 10%;\n  height: 20px;\n  margin: auto;\n  text-align: center;\n  float: right;\n  display: inline-block;\n}\n\n.class-eventList {\n    border-radius: 10px;\n    text-align: left;\n    width: 100%;\n    height: 25px;\n    font-size: 15px;\n}\n\n.class-eventList p {\n    width: 80%;\n    display: inline-block;\n}\n\n.container {\n  text-align: center;\n}\n\n.list-group {\n  text-align: center;\n  /*width: 90%;*/\n}\n\n.list-group-item {\n  margin: auto;\n  width: 93%;\n}", ""]);
 
 // exports
 
