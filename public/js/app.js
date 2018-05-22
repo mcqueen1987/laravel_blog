@@ -78715,7 +78715,7 @@ exports = module.exports = __webpack_require__(34)(false);
 
 
 // module
-exports.push([module.i, ".btn-delete, .btn-done, .btn-save, .btn-cancel {\n  width: 10%;\n  height: 20px;\n  margin: auto;\n  text-align: center;\n  float: right;\n  display: inline-block;\n}\n\n.class-eventList {\n    border-radius: 10px;\n    text-align: left;\n    width: 100%;\n    height: 25px;\n    font-size: 15px;\n}\n\n.class-eventList p {\n    width: 80%;\n    display: inline-block;\n}\n\n.container {\n  text-align: center;\n}\n\n.list-group {\n  text-align: center;\n  /*width: 90%;*/\n}\n\n.list-group-item {\n  margin: auto;\n  width: 93%;\n}", ""]);
+exports.push([module.i, ".btn-delete, .btn-done, .btn-save, .btn-cancel {\n  width: 13px;\n  height: 20px;\n  margin: 3px 7px 0 0;\n  text-align: center;\n  float: right;\n  display: inline-block;\n}\n\n.class-eventList {\n    border-radius: 10px;\n    text-align: left;\n    width: 100%;\n    height: 25px;\n    font-size: 15px;\n}\n\n.class-eventList p,  .class-eventList input{\n    width: 80%;\n    display: inline-block;\n}\n\n.container {\n  text-align: center;\n  width: 93%;\n}\n\n.list-group {\n  margin: 15px 0 20px 0;\n}\n\n.fruit-item {\n  margin: auto;\n  width: 100%;\n  padding: 20px 0 10px 0;\n  border: 0;\n}\n\n/*.list-group-item {\n  border: 1px solid #999;\n  width: 25%;\n  height: 10%;\n  text-align: left;\n}*/\n\n\n", ""]);
 
 // exports
 
@@ -78784,7 +78784,7 @@ exports = module.exports = __webpack_require__(34)(false);
 
 
 // module
-exports.push([module.i, ".list-group-item {\n  border: 1px solid #999;\n  width: 25%;\n  height: 10%;\n  /*float: left;*/\n  text-align: left;\n}\n", ""]);
+exports.push([module.i, "\n", ""]);
 
 // exports
 
@@ -78829,7 +78829,7 @@ exports = module.exports = __webpack_require__(34)(false);
 
 
 // module
-exports.push([module.i, "/* Clear floats after the columns */\n.row:after {\n    content: \"\";\n    display: table;\n    clear: both;\n}\n\n.component-wrapper {\n    float: left;\n    width: 33.33%;\n    height: 100%; \n}\n\n.component-happy {\n\tbackground-color: rgb(107, 183, 171);\n}\n\n.component-wondering {\n\tbackground-color: rgb(238, 193, 71);\n}\n\n.component-worry {\n\tbackground-color: rgb(203, 84, 69);\n}\n\n\n", ""]);
+exports.push([module.i, "/* Clear floats after the columns */\n.row:after {\n    content: \"\";\n    display: table;\n    clear: both;\n}\n\n.component-wrapper {\n    float: left;\n    width: 33.33%;\n    height: auto;\n}\n\n.component-happy {\n\tbackground-color: rgb(107, 183, 171);\n}\n\n.component-wondering {\n\tbackground-color: rgb(238, 193, 71);\n}\n\n.component-worry {\n\tbackground-color: rgb(203, 84, 69);\n}\n\n\n", ""]);
 
 // exports
 

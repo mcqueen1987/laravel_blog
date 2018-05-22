@@ -1,7 +1,7 @@
 .btn-delete, .btn-done, .btn-save, .btn-cancel {
-  width: 10%;
+  width: 13px;
   height: 20px;
-  margin: auto;
+  margin: 3px 7px 0 0;
   text-align: center;
   float: right;
   display: inline-block;
@@ -15,21 +15,32 @@
     font-size: 15px;
 }
 
-.class-eventList p {
+.class-eventList p,  .class-eventList input{
     width: 80%;
     display: inline-block;
 }
 
 .container {
   text-align: center;
+  width: 93%;
 }
 
 .list-group {
-  text-align: center;
-  /*width: 90%;*/
+  margin: 15px 0 20px 0;
 }
 
-.list-group-item {
+.fruit-item {
   margin: auto;
-  width: 93%;
+  width: 100%;
+  padding: 20px 0 10px 0;
+  border: 0;
 }
+
+/*.list-group-item {
+  border: 1px solid #999;
+  width: 25%;
+  height: 10%;
+  text-align: left;
+}*/
+
+
