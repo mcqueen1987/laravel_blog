@@ -53,7 +53,7 @@ export class FruitForm extends Component {
 				<div className="form-group">
   					<img className="img-hint" alt="happy icon mage" src={`${img}`}/>
 					<div className="main">
-				        <FormGroup  controlId="formBasicText" >
+				        <FormGroup className="form-item" controlId="formBasicText" >
 				          <FormControl type="text" className="fruitForm" onChange={this.handleChange} 
 					          value={this.state.value} placeholder={`    I am ${tag} that ...`}  
 					          inputRef={(ref) => {this.input = ref}}/>
