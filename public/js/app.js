@@ -66675,12 +66675,12 @@ var FruitPanel = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__static_css_fruitForm_css__ = __webpack_require__(222);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__static_css_fruitForm_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__static_css_fruitForm_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__static_img_happy_png__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__static_img_happy_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__static_img_happy_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__static_img_wondering_png__ = __webpack_require__(225);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__static_img_wondering_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__static_img_wondering_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__static_img_worry_png__ = __webpack_require__(226);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__static_img_worry_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__static_img_worry_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__static_img_glad_svg__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__static_img_glad_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__static_img_glad_svg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__static_img_wondering_svg__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__static_img_wondering_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__static_img_wondering_svg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__static_img_notgreate_svg__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__static_img_notgreate_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__static_img_notgreate_svg__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react_bootstrap__ = __webpack_require__(107);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -66692,6 +66692,9 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+// import happyFace     from '../../static/img/happy.png' // if from default exports, we dont need to use brace
+// import wonderingFace from '../../static/img/wondering.png'
+// import worryFace     from '../../static/img/worry.png'
  // if from default exports, we dont need to use brace
 
 
@@ -66744,16 +66747,16 @@ var FruitForm = function (_Component) {
 			var img = "";
 			switch (tag) {
 				case "happy":
-					img = __WEBPACK_IMPORTED_MODULE_2__static_img_happy_png___default.a;
+					img = __WEBPACK_IMPORTED_MODULE_2__static_img_glad_svg___default.a;
 					break;
 				case "wondering":
-					img = __WEBPACK_IMPORTED_MODULE_3__static_img_wondering_png___default.a;
+					img = __WEBPACK_IMPORTED_MODULE_3__static_img_wondering_svg___default.a;
 					break;
 				case "worry":
-					img = __WEBPACK_IMPORTED_MODULE_4__static_img_worry_png___default.a;
+					img = __WEBPACK_IMPORTED_MODULE_4__static_img_notgreate_svg___default.a;
 					break;
 				default:
-					img = __WEBPACK_IMPORTED_MODULE_2__static_img_happy_png___default.a;
+					img = __WEBPACK_IMPORTED_MODULE_2__static_img_glad_svg___default.a;
 			}
 			return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 				'form',
@@ -66832,19 +66835,19 @@ exports.push([module.i, "\n.form-inline {\n  text-align: center;\n}\n\n.form-gro
 /* 224 */
 /***/ (function(module, exports) {
 
-module.exports = "/images/happy.png?d96addb2073511997cea55dbee2cf00a";
+module.exports = "/images/glad.svg?8400009ccb26ffcb1f222bc25874951b";
 
 /***/ }),
 /* 225 */
 /***/ (function(module, exports) {
 
-module.exports = "/images/wondering.png?d9baab4b1f9654bb58cfea8d2a7a0c49";
+module.exports = "/images/wondering.svg?ffca1f03fdcbb25e52d531fb9504fe45";
 
 /***/ }),
 /* 226 */
 /***/ (function(module, exports) {
 
-module.exports = "/images/worry.png?d1e1782ded05820db3aeeafab8480765";
+module.exports = "/images/notgreate.svg?8b4bf6999410151042153288f03173b0";
 
 /***/ }),
 /* 227 */

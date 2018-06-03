@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import '../../static/css/fruitForm.css';
-import happyFace     from '../../static/img/happy.png' // if from default exports, we dont need to use brace
-import wonderingFace from '../../static/img/wondering.png'
-import worryFace     from '../../static/img/worry.png'
+// import happyFace     from '../../static/img/happy.png' // if from default exports, we dont need to use brace
+// import wonderingFace from '../../static/img/wondering.png'
+// import worryFace     from '../../static/img/worry.png'
+import happyFace     from '../../static/img/glad.svg' // if from default exports, we dont need to use brace
+import wonderingFace from '../../static/img/wondering.svg'
+import worryFace     from '../../static/img/notgreate.svg'
 import { FormGroup } from 'react-bootstrap';
 import { FormControl } from 'react-bootstrap';
 
