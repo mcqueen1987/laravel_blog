@@ -12,7 +12,7 @@
 */
 
 Route::get('/', 'HomeController@welcome')->name('welcome');
-Route::get('/fruits', 'FruitsController@welcome')->name('welcome');
+Route::get('/tools', 'FruitsController@welcome')->name('welcome');
 Route::get('/update/{id}', 'BlogController@update')->name('update');
 Route::post('/updatePost', 'BlogController@updatePost')->name('updatePost');
 Route::get('/delete/{id}', 'BlogController@delete')->name('delete');
@@ -21,4 +21,4 @@ Route::post('/saveData', 'BlogController@saveData')->name('saveData');
 Route::post('/create', 'BlogController@create')->name('create');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/react', 'ReactController@index')->name('react');
+// Route::get('/react', 'ReactController@index')->name('react');
